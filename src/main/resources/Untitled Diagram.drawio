@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T02:31:59.913Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="cQeAkKtoQ2b-cFh6nV4c" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-31T02:33:57.409Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="zr7ZT188kch7ef1o2Kxd" version="20.4.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,8 +49,8 @@
         <mxCell id="ddgU64rcD_rprVMXC0fK-28" value="Iterate over each of the rows from first query and set canCreate = true &lt;br&gt;where CURR = &#39;Y&#39; and category = Either of below (based on profile of logged in user)&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TARQ (Territorial authority)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SRCH (Search)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SURQ (Survey)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CORR (Titles)&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="640" width="460" height="124" as="geometry" />
         </mxCell>
-        <mxCell id="ddgU64rcD_rprVMXC0fK-35" value="HOW ?" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="540" y="330" width="90" height="60" as="geometry" />
+        <mxCell id="ddgU64rcD_rprVMXC0fK-35" value="HOW ?" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="680" y="340" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ddgU64rcD_rprVMXC0fK-36" value="There are transact_types which are marked as internal_request as Y but internal_only as N which means an external user can create that type of request as well ?&lt;br&gt;&lt;br&gt;Problem: Category column is null for each of that transact type, then how do we run the below logic on those rows ?" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="380" y="508" width="400" height="132" as="geometry" />
@@ -63,6 +63,9 @@
               <mxPoint x="290" y="570" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ddgU64rcD_rprVMXC0fK-42" value="Assumption, an internal user can create any type of request which is marked as internal request" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.72;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="350" width="180" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
