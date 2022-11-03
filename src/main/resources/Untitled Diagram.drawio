@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T19:33:19.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="gl2XzHMFjKlW4F2eQS5v" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T19:38:33.707Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="EsQsj6f9MfaAPHI8zUOM" version="20.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,8 +59,8 @@
         <mxCell id="ddgU64rcD_rprVMXC0fK-42" value="Assumption, an internal user can create any type of request which is marked as internal request" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.72;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="10" y="350" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="wY6n7dCIzp5NNforvGuV-0" value="If user has any of the other profiles than Search + Search then user can only create requests for the other profile and not the search requests&lt;br&gt;&lt;br&gt;If user has none of the profiles then user is able to create search requests&lt;br&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="500" y="510" width="290" height="150" as="geometry" />
+        <mxCell id="wY6n7dCIzp5NNforvGuV-0" value="If user has any of the other profiles than Search + Search then user can only create requests for the other profile and not the search requests&lt;br&gt;&lt;br&gt;If user has none of the profiles then user is able to create search requests&lt;br&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="500" y="520" width="290" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
